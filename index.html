@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .container p {
+            padding: 10px;
+            margin: 5px 0;
+        }
+
+        .container p:first-child {
+            background-color: yellow;
+            color: red;
+        }
+
+        .container p:not(:first-child) {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p>This is the first paragraph with yellow background and red text.</p>
+        <p>This is the second paragraph with blue background and white text.</p>
+        <p>Another paragraph with blue background and white text.</p>
+        <p>Yet another paragraph with blue background and white text.</p>
+        <p>Final paragraph with blue background and white text.</p>
+    </div>
+
+</body>
+</html>
